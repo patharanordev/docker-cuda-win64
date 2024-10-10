@@ -1,6 +1,6 @@
-# Docker container with CUDA v12 on x64
+# Docker container with CUDA v12+ on x64
 
-- Base image: nvidia/cuda:12.x.y-devel-ubuntuXX.YY
+- Base image: nvidia/cuda:x.y.z-devel-ubuntuXX.YY
 - Python: 3.10
 - Numpy
 - Torch: nightly/cu121
@@ -20,7 +20,7 @@ Please refer to `Dockerfile.mini`.
 Build container:
 
 ```sh
-docker build -t nvidia-cuda121-win64 .
+docker build -t nvidia-cuda-win64 .
 ```
 
 then use the image in other `Dockerfile`.
@@ -30,3 +30,5 @@ In case you using [Docker registry](https://learn.patharanor.dev/blog/en/docker-
 ```sh
 ./build.ps1
 ```
+
+Or just use my image, [nvidia-cuda-win64](https://hub.docker.com/repository/docker/patharanor/nvidia-cuda-win64/general).
