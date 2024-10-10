@@ -1,6 +1,6 @@
-# Docker container with CUDA v12.1 on x64
+# Docker container with CUDA v12 on x64
 
-- Base image: nvidia/cuda:12.1.0-devel-ubuntu22.04
+- Base image: nvidia/cuda:12.x.y-devel-ubuntuXX.YY
 - Python: 3.10
 - Numpy
 - Torch: nightly/cu121
@@ -10,6 +10,10 @@
 - Window OS
 - NVIDIA RTX4080 (or model that support cu121)
 - Docker
+
+## Mini version
+
+Please refer to `Dockerfile.mini`.
 
 ## Usage
 
