@@ -31,4 +31,4 @@ In case you using [Docker registry](https://learn.patharanor.dev/blog/en/docker-
 ./build.ps1
 ```
 
-Or just use my image, [nvidia-cuda-win64](https://hub.docker.com/repository/docker/patharanor/nvidia-cuda-win64/general).
+Or just use my image, [nvidia-cuda-win64](https://hub.docker.com/r/patharanor/nvidia-cuda-win64).
